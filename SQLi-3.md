@@ -4,7 +4,7 @@
 
 The membership-management-system in PHP Free Source Code (It is an open source project from [https://codeastro.com/](https://codeastro.com/)) has SQL injection vulnerabilities, which can lead to database information leakage.
 
-1. BUG_Author:
+1. BUG_Author: xiaomingLi
 2. vendors: https://codeastro.com/membership-management-system-in-php-with-source-code/;
 3. The program is built using the PHP 7.3.4nts version;
 4. Vulnerability location: /add_members.php
@@ -92,8 +92,8 @@ Content-Type: application/octet-stream
 
 3.The vulnerability is located at the "Settings-Update Settings" function, you should inserts Payload when you Update any  information，as shown in the following figure：
 
-​![image](assets/image-20240227214748-krnwpnj.png)​
+​
+![image-20240227214748-krnwpnj](https://github.com/0x404Ming/CVE_Hunter/assets/157251855/59863a2a-8c53-4f1d-8cd5-de7e3d2f5359)
 
-​![image](assets/image-20240227214843-uo77yvq.png)​
+‍![image-20240227214843-uo77yvq](https://github.com/0x404Ming/CVE_Hunter/assets/157251855/39200477-8e20-405e-8919-83c81df0bece)
 
-‍
